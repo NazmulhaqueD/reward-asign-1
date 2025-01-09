@@ -1,0 +1,76 @@
+/* .azeret-mono-<uniquifier> {
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* common style starts here */
+.max-width{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.title{
+  font-size: 28px;
+  font-weight: 800;
+  color: #0D1321;
+}
+.common-btn{
+  padding: 17px 24px;
+  font-size: 20px;
+  font-weight: 540;
+  color: #0D1321;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+/* common style ends here */
+
+
+/* header starts here  */
+
+/* navber starts here  */
+.navber{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+/* navber ends here  */
+/* bannar-section starts here  */
+.bannar-section{
+  background-image: url(assets/Hero-bg.png);
+}
+.bannar-desc{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 45px 0;
+}
+.bannar-img{
+  padding-bottom: 30px;
+}
+.bannar-title{
+  font-size: 48px;
+  font-weight: 800;
+  color: #0D1321;
+}
+.sub-desc{
+  padding: 30px 70px;
+  line-height: 26px;
+  color: #0D1321;
+}
+.contact-btn{
+  color: #FFFFFF;
+  background-color: #0D1321;
+}
+/* header ends here  */
